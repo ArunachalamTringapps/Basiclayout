@@ -23,16 +23,16 @@ html body {
 
 
 header{
-    height: 90px;
+    height: 6rem;
     background-color: #80808080;
     display: flex;
     flex-direction: row;
-    row-gap: 20px;
+    /* row-gap: 20px; */
 }
 .titlename{
     padding: 10px;
     display: flex;
-    font-size: 40px;
+    font-size: 3em;
     align-items: center;
     flex-grow: 1;
 }
@@ -45,13 +45,13 @@ header{
 .navi{
     flex-grow: 1;
     display: flex;
-    column-gap: 50px;
+    column-gap: 3rem;
     justify-content: space-evenly;
     align-items: center;
 }
 .navi a{
     color: #FFF;
-    font-size: 20px;
+    font-size: 2rem;
     
     text-decoration: none;
 }
@@ -65,33 +65,33 @@ header{
     text-shadow: 2px 2px 5px gray;
     text-decoration-style: solid;
     color: #FFF;
-    font-size: 50px;
+    font-size: 4rem;
     margin: 100px auto;
-    word-spacing: 10px;
+    word-spacing: 0.4rem;
     text-align: center;
 
 }
 .welcome{
-    word-spacing: 4px;
-    font-size: 30px;
+    word-spacing: 0.4rem;
+    font-size: 1.5rem;
 }
 p{
-    line-height: 80px;
+    line-height: 5rem;
 }
 .india{
-    word-spacing: 8px;
-    font-size: 25px;
+    word-spacing: 0.4rem;
+    font-size: 1.8rem;
 }
 .mumbai{
     color: #6fd9b6;
     text-shadow: 1px 2px 5px rgb(0, 0, 0);
 }
 .btnouter > button{
-    padding: 10px;
+    padding: 0.6rem;
     border-radius: 5px;
     border: none;
     letter-spacing: 1px;
-    word-spacing: 2px;
+    word-spacing: 0.2em;
 }
 .btnouter > button:hover{
     cursor: pointer;
@@ -104,4 +104,3 @@ p{
     color: #FFF;
     text-shadow: 1px 1px 5px #000;
 }
-
